@@ -347,14 +347,17 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
-  margin: 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
+  max-width: 154px;
+  margin-right: 120px;
+  z-index: 3;
+  position: relative;
 }
 
 .about__content {
@@ -362,6 +365,16 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  z-index: 2;
+  position: relative;
+}
+
+.about__paragraph {
+  margin-bottom: 32px;
+}
+
+.about__paragraph:last-child {
+  margin: 0;
 }
 
 .about__circle {
@@ -369,6 +382,10 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  top: -121px;
+  left: -91px;
+  position: absolute;
+  z-index: 0;
 }
 
 .footer {
