@@ -244,11 +244,14 @@
 
 .staff__content {
   max-width: 760px;
-  margin-top: 68px;
+  margin: 68px auto 0;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 40px 40px;
+  justify-content: center;
+  gap: 40px;
 }
 
 .card {
@@ -256,8 +259,8 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  height: 420px;
   width: 360px;
+  height: 420px;
 }
 
 .card__content {
