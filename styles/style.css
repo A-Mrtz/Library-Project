@@ -225,6 +225,9 @@
 
 .staff {
   padding: 100px 0 140px;
+  background-image: url(/images/staff_picks_background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .staff__title {
@@ -232,6 +235,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #fff;
 }
 
 .staff__subtitle {
@@ -240,6 +244,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: #fff;
 }
 
 .staff__content {
@@ -309,11 +314,13 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  justify-content: center;
 }
 
 .step {
-  /* Add styles */
+  margin-right: 40px;
+  flex-basis: 220px;
 }
 
 .step__title {
