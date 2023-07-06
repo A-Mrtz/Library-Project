@@ -390,9 +390,14 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #000000;
+  color: #fff;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column_content_hours {
