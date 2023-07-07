@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -21,7 +21,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .nav__logo {
@@ -236,7 +235,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -327,11 +326,11 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 
 .step {
-  margin-right: 40px;
-  flex-basis: 220px;
+  width: 220px;
 }
 
 .step__title {
@@ -362,6 +361,7 @@
 }
 
 .about__title {
+  margin: 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
@@ -381,6 +381,7 @@
 }
 
 .about__paragraph {
+  margin: 0;
   margin-bottom: 32px;
 }
 
@@ -401,18 +402,13 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
   display: flex;
-}
-
-.footer_column {
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .footer__column_content_hours {
@@ -444,7 +440,10 @@
 }
 
 .footer__column-heading {
+  margin: 0;
   margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -467,5 +466,6 @@
 }
 
 .footer__copyright {
+  margin: 0;
   margin-top: 108px;
 }
